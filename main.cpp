@@ -6,6 +6,7 @@
 #include "sorting/insertion-sort.h"
 #include "sorting/merge-sort.h"
 #include "sorting/quick-sort.h"
+#include "sorting/heap-sort.h"
 
 using namespace std;
 
@@ -33,5 +34,7 @@ int main()
   test_sort("Insertion", insertion_sort);
   test_sort("Merge", merge_sort);
   test_sort("Quick", quick_sort);
+  test_sort("Heap", heap_sort);
+
   return 0;
 }
