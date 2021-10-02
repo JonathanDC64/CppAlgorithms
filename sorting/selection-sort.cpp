@@ -9,9 +9,12 @@ void selection_sort(int *array, int length)
   {
     int min_val = i;
     for (int j = i + 1; j < length; j++)
+    {
       if (array[j] < array[min_val])
+      {
         min_val = j;
-
+      }
+    }
     swap(array[min_val], array[i]);
   }
 }
