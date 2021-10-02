@@ -4,6 +4,7 @@
 #include "sorting/selection-sort.h"
 #include "sorting/bubble-sort.h"
 #include "sorting/insertion-sort.h"
+#include "sorting/merge-sort.h"
 
 using namespace std;
 
@@ -29,5 +30,6 @@ int main()
   test_sort("Selection", selection_sort);
   test_sort("Bubble", bubble_sort);
   test_sort("Insertion", insertion_sort);
+  test_sort("Merge", merge_sort);
   return 0;
 }
